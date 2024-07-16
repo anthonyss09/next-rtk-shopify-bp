@@ -1,0 +1,169 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.cart-item-buttons {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.cart-item-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.cart-item-row button {
+  width: 40px;
+  background: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+}
+
+.cart-items-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cart-main {
+  min-height: 300px;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  padding-top: 2rem;
+  background: white;
+  border-radius: 16px;
+  border: 4px solid lightGrey;
+}
+
+.cart-main h5 {
+  margin-bottom: 1rem;
+}
+
+.cart-main li {
+  list-style-type: none;
+}
+
+.form {
+  width: 60vw;
+  border: 3px solid grey;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-input {
+  border-radius: 0.6rem;
+  border: 2px solid lightGrey;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.home-main h3 {
+  margin: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: grey;
+}
+
+.navbar-main {
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 2px solid lightGrey;
+}
+
+.navbar-main span {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.page-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.product-list-main {
+  height: min-content;
+  padding: 2rem;
+  border: 3px solid lightGrey;
+  border-radius: 8px;
+}
+
+.product-list-main h3 {
+  margin-bottom: 1rem;
+}
+
+.product-list-main li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.product-preview-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 3px solid black;
+}
+
+.single-product-main {
+  height: min-content;
+  padding: 2rem;
+  border: 3px solid lightGrey;
+  border-radius: 8px;
+}
+
+.single-product-main button {
+  padding: 0.6rem;
+  background: white;
+  border-radius: 16px;
+  border: 2px solid lightGrey;
+}
+
+.single-product-main h5 {
+  margin-bottom: 1rem;
+}
+
+.single-product-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
